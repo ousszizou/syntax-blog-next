@@ -51,6 +51,7 @@ export default {
     [
       "nuxt-i18n",
       {
+        detectBrowserLanguage: false,
         locales: [
           {
             code: "ar",
