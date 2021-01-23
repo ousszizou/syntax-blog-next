@@ -1,0 +1,27 @@
+{
+  "global": {
+    "blog": "Syntax Blog",
+    "quote": "when you learn, teach, when you get, give",
+    "quote-auth": "MAYA ANGELOU",
+    "subscribe": "SUBSCRIBE"
+  },
+  "links": {
+    "hire": "hire",
+    "contact": "contact"
+  },
+  "locales": {
+    "arabic": "arabic",
+    "english": "english"
+  },
+  "logos": {
+    "nuxt": "built with Nuxt.js",
+    "tailwind": "Styled by Tailwindcss",
+    "github": "open-source on GitHub",
+    "netlify": "Hosted by Netlify"
+  },
+  "footer": {
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "services": "Services"
+  }
+}

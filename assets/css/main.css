@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "HelveticaNeueLTRoman";
+    src: url("~assets/fonts/HelveticaNeueLTRoman.woff") format("woff");
+  }
+}
+
+:root {
+  --bg-color: #ffffff; /* background color */
+
+  --base-font-size: 20px;
+  --second-font-size: 18px;
+}
+
+.dark {
+  --bg-color: #202020;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply p-0 m-0 bg-background text-xl font-sans text-gray-700 dark:text-gray-200 transition-colors duration-700 ease-in-out;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  @apply text-gray-700 dark:text-gray-200 transition-colors duration-700 ease-in-out;
+}
+
+/* change highlight selection color */
+::-moz-selection {
+  /* Code for Firefox */
+  color: #111;
+  background: #ffee5b;
+}
+::selection {
+  color: #111;
+  background: #ffee5b;
+}

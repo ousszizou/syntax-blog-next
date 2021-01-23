@@ -1,0 +1,27 @@
+{
+  "global": {
+    "blog": "مدونة سينتاكس",
+    "quote": "إذا مُنع العلم عن العامة فلا خير فيه للخاصة",
+    "quote-auth": "أنس بن مالك",
+    "subscribe": "إشتراك"
+  },
+  "links": {
+    "hire": "وظف",
+    "contact": "اتصل"
+  },
+  "locales": {
+    "arabic": "عربية",
+    "english": "إنجليزية"
+  },
+  "logos": {
+    "nuxt": "بُني باستخدام Nuxt.js",
+    "tailwind": "نُسق باستخدام Tailwindcss",
+    "github": "مفتوح المصدر على GitHub",
+    "netlify": "مُستظاف على Netlify"
+  },
+  "footer": {
+    "about": "عن سينتاكس؟",
+    "privacy": "سياسية الخصوصية",
+    "services": "خدماتنا"
+  }
+}
