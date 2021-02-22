@@ -1,15 +1,15 @@
 ---
-title: "مدخل إلى مولد المواقع الساكنة Gridsome"
-description: "مقدمة و مدخل إلى مولد المواقع الساكنة gridsome"
+title: "بناء مدونة بإستخدام Nuxt.js"
+description: "مقدمة إلى إطار العمل nuxt.js"
 author: Oussama Djaidri
-demoUrl: https://keen-tesla-1c5005.netlify.app
-codeUrl: https://github.com/ousszizou/syntaxBlog_gridsome-demo
+demoUrl:
+codeUrl:
 categories:
   - web development
   - frontend
 tags:
   - vuejs
-  - gridsome
+  - nuxt.js
 ---
 
 يتم إنشاء الكثير من الأدوات الرائعة للمساعدة في تعزيز تطور **JAMstack**. و يتبنى المطورون هاته الأدوات و يعملون على تطويرها و تحسينها. أحد هاته الأدوات تسمى **مولدات المواقع الساكنة** (Static Sites Generators). و يُعد [**Gridsome**](https://gridsome.org/) مثال على أحد مولدات المواقع الساكنة و الذي سنتطرق إليه في هاته المقالة.
@@ -30,42 +30,3 @@ tags:
     SSG هي إختصار لـ Static Sites Generator
   </template>
 </info-box>
-
-### عنوان فرعي
-
-## مميزات Gridsome
-
-## كيف يعمل Gridsome
-
-```js
-export default {
-  nuxt: "is the best"
-};
-```
-
-```html
-<p>code styling is easy</p>
-```
-
-```bash
-yarn add @gridsome/transformer-remark
-yarn add @gridsome/source-filesystem
-```
-
-```js{codeTitle: "In gridsome.config.js"}
-module.exports = {
-  siteName: "simple blog",
-  plugins: [
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "content/posts/**/*.md",
-        typeName: "Post"
-      }
-    }
-  ],
-  templates: {
-    Post: "/posts/:title"
-  }
-};
-```

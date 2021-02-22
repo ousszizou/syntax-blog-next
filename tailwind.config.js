@@ -19,7 +19,8 @@ module.exports = {
       },
       colors: {
         background: "var(--bg-color)",
-        tgray: colors.trueGray
+        tgray: colors.trueGray,
+        lightBlue: colors.lightBlue
       }
     }
   },

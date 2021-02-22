@@ -5,7 +5,7 @@
         <coffee-icon class="inline ml-3 w-4"></coffee-icon>آخر المقالات
       </h2>
       <NuxtLink
-        to="/"
+        to="/posts"
         class="inline-block text-sm mx-3 p-1 rounded bg-gray-100 dark:bg-tgray-900 px-2 py-1 transition-colors duration-700 text-gray-700 dark:text-gray-200"
         >شاهد الكل</NuxtLink
       >

@@ -21,7 +21,7 @@
           class="inline-block align-middle mx-2 hover:text-gray-900 dark:hover:text-gray-100"
           >{{ $t("links.hire") }}</NuxtLink
         >
-        <local-switcher class="mx-2" />
+        <!-- <local-switcher class="mx-2" /> -->
         <color-mode-picker class="inline-block align-middle">
           <template slot="default" slot-scope="{ dark }">
             <MoonIcon v-if="dark" />
@@ -37,7 +37,7 @@
 import { MoonIcon, SunIcon } from "vue-feather-icons";
 import { headroom } from "vue-headroom";
 import ColorModePicker from "./ColorModePicker.vue";
-import LocalSwitcher from "./LocalSwitcher.vue";
+// import LocalSwitcher from "./LocalSwitcher.vue";
 
 export default {
   components: {
@@ -45,7 +45,7 @@ export default {
     SunIcon,
     headroom,
     ColorModePicker,
-    LocalSwitcher,
+    // LocalSwitcher,
   },
   computed: {
     getLocalDateString() {

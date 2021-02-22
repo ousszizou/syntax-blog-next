@@ -6,7 +6,7 @@
         <span class="block mb-2">
           بتاريخ
           <time class="font-bold mx-3 text-sm">{{
-            post.updatedAt | formatDate(getLocalDateString)
+            post.createdAt | formatDate(getLocalDateString)
           }}</time>
         </span>
         <span class="block">
@@ -54,7 +54,7 @@
               <div
                 class="w-1 h-1 bg-gray-700 dark:bg-white rounded-full inline-block transition-colors duration-700"
               ></div>
-              <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
+              <a :href="`#${link.id}`">{{ link.text }}</a>
             </li>
           </ul>
         </div>
