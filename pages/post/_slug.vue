@@ -21,7 +21,9 @@
             v-for="tag in post.tags"
             :key="tag"
           >
-            {{ tag }}
+            <NuxtLink :to="`/tags/${tag}`">
+              {{ tag }}
+            </NuxtLink>
           </span>
         </div>
         <div class="mt-16" v-if="post.demoUrl || post.codeUrl">
